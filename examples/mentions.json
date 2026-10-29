@@ -1,0 +1,32 @@
+[
+  {
+    "id": "demo-001",
+    "title": "Northstar Mobility investigates battery complaints",
+    "text": "Northstar Mobility said an independent engineering panel will investigate three battery complaints. The company published a safety update.",
+    "source": "Metro Ledger",
+    "url": "https://example.com/metro-ledger/battery-complaints",
+    "published_at": "2026-10-26T08:30:00Z",
+    "reach": 85000,
+    "tags": ["product safety", "battery"]
+  },
+  {
+    "id": "demo-002",
+    "title": "Regulator requests Northstar Mobility safety data",
+    "text": "The Transport Standards Office requested safety data after reports of battery failure. No recall has been announced.",
+    "source": "Industry Signal",
+    "url": "https://example.com/industry-signal/northstar-data-request",
+    "published_at": "2026-10-27T12:15:00Z",
+    "reach": 42000,
+    "tags": ["product safety", "regulatory"]
+  },
+  {
+    "id": "demo-003",
+    "title": "Northstar opens transparent battery testing lab",
+    "text": "Northstar Mobility opened its testing process to University Engineering Lab researchers and published the results.",
+    "source": "Clean Transit Weekly",
+    "url": "https://example.com/clean-transit/testing-lab",
+    "published_at": "2026-10-28T09:00:00Z",
+    "reach": 19000,
+    "tags": ["product safety", "transparency"]
+  }
+]

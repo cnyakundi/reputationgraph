@@ -1,0 +1,15 @@
+{
+  "subject": "Northstar Mobility",
+  "mentions": [
+    {
+      "id": "api-demo-001",
+      "title": "Northstar Mobility investigates battery complaints",
+      "text": "An independent panel will investigate battery complaints and publish a safety update.",
+      "source": "Metro Ledger",
+      "url": "https://example.com/metro-ledger/battery-complaints",
+      "published_at": "2026-10-26T08:30:00Z",
+      "reach": 85000,
+      "tags": ["product safety"]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "reputationgraph"
+version = "0.1.0"
+description = "Explainable, source-backed online reputation intelligence"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Cyprian Nyakundi" }]
+keywords = ["orm", "reputation", "osint", "nlp", "risk-intelligence"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+  "fastapi>=0.115,<1",
+  "pydantic>=2.9,<3",
+  "uvicorn>=0.30,<1",
+]
+
+[project.optional-dependencies]
+dev = ["httpx>=0.27", "pytest>=8", "ruff>=0.7"]
+
+[project.scripts]
+reputationgraph = "reputationgraph.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/reputationgraph"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
